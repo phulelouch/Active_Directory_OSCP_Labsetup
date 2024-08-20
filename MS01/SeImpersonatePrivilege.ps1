@@ -9,9 +9,10 @@ $ascii = @"
 |_______ \____/ \___  >____  /____/         |_______ (____  /___  /_______  /\___  >__| |____/|   __/ 
         \/          \/     \/                       \/    \/    \/        \/     \/           |__|    
 
-~ Created with <3 by @nickvourd
+~ Original create by @nickvourd
+~ Modify and change with <3 by @phulelouch
 ~ Version: $global:version
-~ Type: SeImpersonatePrivilege
+~ Type: Web ASPX and SeImpersonatePrivilege
 
 "@
 

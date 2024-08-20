@@ -74,11 +74,11 @@ Write-Host "Full control permissions set successfully for $userAccount on $folde
 
 
 # Set the URLs of the files to download
-#$urlIndexHtml = "https://raw.githubusercontent.com/nickvourd/Windows-Local-Privilege-Escalation-Cookbook/master/Lab-Setup-Source-Code/index.html"  
+$urlIndexHtml = "https://raw.githubusercontent.com/phulelouch/Active_Directory_Labsetup/main/MS01/index.aspx"  
 #$urlCmdAspx = "https://raw.githubusercontent.com/nickvourd/Windows-Local-Privilege-Escalation-Cookbook/master/Lab-Setup-Source-Code/cmdasp.aspx"  
 
 # Download index.html
-#Invoke-WebRequest -Uri $urlIndexHtml -OutFile "$wwwRoot\index.html"
+Invoke-WebRequest -Uri $urlIndexHtml -OutFile "$wwwRoot\index.aspx"
 
 # Download cmdasp.aspx
 #Invoke-WebRequest -Uri $urlCmdAspx -OutFile "$wwwRoot\cmdasp.aspx"
